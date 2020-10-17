@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ if .Title }}{{ .Title }}{{ else  }}{{ .Site.Title }} {{end}}</title>
+    <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Hardcoded description; the author should update :){{ end }}" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{"css/open-iconic-bootstrap.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{"css/animate.css" | absURL }}">
+    
+    <link rel="stylesheet" href="{{"css/owl.carousel.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{"css/owl.theme.default.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{"css/magnific-popup.css" | absURL }}">
+
+    <link rel="stylesheet" href="{{"css/aos.css" | absURL }}">
+
+    <link rel="stylesheet" href="{{"css/ionicons.min.css" | absURL }}">
+    
+    <link rel="stylesheet" href="{{"css/flaticon.css" | absURL }}">
+    <link rel="stylesheet" href="{{"css/icomoon.css" | absURL }}">
+    <link rel="stylesheet" href="{{"css/style.css" | absURL }}">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">

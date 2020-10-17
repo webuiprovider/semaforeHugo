@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Semafore"
+
+
+[menu]
+    [[menu.main]]
+        identifier = "Download"
+        name = "Download"
+        url = "/#download"
+        weight = 1
+    [[menu.main]]
+        identifier = "Security"
+        name = "Security"
+        url = "/Security/"
+        weight = 2
+    [[menu.main]]
+        identifier = "FAQ's"
+        name = "FAQ's"
+        url = "/faqs/"
+        weight = 3
+    [[menu.main]]
+        identifier = "Contact"
+        name = "Contact"
+        url = "/#contact"
