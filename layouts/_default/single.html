@@ -1,0 +1,14 @@
+{{- partial "head.html" . -}}
+{{- partial "navbar.html" . -}}
+
+    {{block "main" .}}  
+        {{if .Params.security}} 
+            {{- partial "security.html" . -}}
+        {{end}}
+        {{if .Params.faq}} 
+            {{- partial "faq.html" . -}}
+        {{end}}
+        {{.Content}} 
+    {{end}}
+    
+{{- partial "footer.html" . -}}
