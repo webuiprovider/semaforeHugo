@@ -5,6 +5,8 @@
 	{{- partial "features.html" . -}}
 	{{- partial "download.html" . -}}
 	{{- partial "faq.html" . -}}
-	{{- partial "testimonials.html" . -}}
+	{{ if .Params.testimonials }}
+		{{- partial "testimonials.html" . -}}
+	{{end}}
 	{{- partial "contact.html" . -}}
 {{end}}

@@ -7546,7 +7546,7 @@ h1, h2, h3, h4, h5,
     padding-bottom: .7rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #000000;
+    color: #fff;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
@@ -9437,4 +9437,91 @@ textarea.form-control {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+/* ------------------------------------------------------------------- 
+ * ## Hero
+ * ------------------------------------------------------------------- */
+
+.slider-area.slider-area2 {
+  padding-bottom: 50px;
+  background-image: url("/images/hero/hero2.png");
+}
+.slider-area {
+  margin-top: 4.8em;
+  padding-bottom: 100px;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before, .slick-track:after {
+  display: table;
+  content: '';
+}
+
+ .slider-area .single-slider .slider-cap-wrapper .hero-img {  
+  overflow: hidden;
+  margin-right: -15px;
+} 
+
+.slider-area .single-slider .slider-cap-wrapper .hero-caption {
+  width: 25%;
+  overflow: hidden;
+}
+.hero-text{
+  text-align: right;
+  font-weight: 800;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.img-cover{
+  width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
