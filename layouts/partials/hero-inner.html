@@ -1,0 +1,34 @@
+<!--? slider Area Start-->
+<div class="slider-area slider-area2 slider-height2 position-relative">
+    <div class="slider-active">
+        <!-- Single Slider -->
+        <div class="single-slider">
+            <div class="slider-cap-wrapper">
+                <div class="container-fluid">
+                    <div class="row h-100 justify-content-center align-items-center slider-min-height">
+
+                        {{if .Params.hero.image }}
+                            <div class="col-md-5">
+                                <h1 data-animation="fadeInLeft" data-delay=".4s" class="hero-text">{{- .Params.hero.title -}}</h1>                                                         
+                            </div>
+                            <div class="col-md-7">
+                                <div class="hero-img">
+                                    <img src="{{ .Params.hero.image  | absURL }}" alt=""  data-animation="fadeInRight" data-transition-duration="5s">
+                                </div>
+                            </div>
+
+                        {{else}}
+                            <div class="col-md-12">
+                                <h1 data-animation="fadeIncenter" data-delay=".4s" class="hero-text text-center mt-5">{{- .Params.hero.title -}}</h1>                                                         
+                            </div>
+                        {{end}}
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- slider Area End-->

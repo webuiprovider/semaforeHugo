@@ -1,0 +1,18 @@
+- title: Per Licence
+  price: £40/mo.
+  buttonText: Get Started
+  buttonUrl: "#"
+  features: 
+  - 5GB Storage
+  - 10GB Bandwidth
+  - 5 Databases
+  - 30 Email Accounts
+- title: Enterprise Licence
+  price: £1000/mo.
+  buttonText: Get Started
+  buttonUrl: "#"
+  features: 
+  - 5GB Storage
+  - 10GB Bandwidth
+  - 5 Databases
+  - 30 Email Accounts

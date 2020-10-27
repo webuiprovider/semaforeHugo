@@ -1,8 +1,9 @@
 {{ define "main" }}
 	{{- partial "navbar.html" . -}}
 	{{- partial "hero.html" . -}}
-	{{- partial "top3.html" . -}}
-	{{- partial "features.html" . -}}
+	{{ if .Params.top3 }}
+		{{- partial "top3.html" . -}}
+	{{end}}
 	{{- partial "download.html" . -}}
 	{{- partial "faq.html" . -}}
 	{{ if .Params.testimonials }}

@@ -1,0 +1,40 @@
+- Q: "What do the coloured dots mean by my messages?"
+  A: "When a message is sent, it routes via our servers to the receipient. If the receipient is not online at the time you sent the message, the message will wait on our servers until they do. During that time we cannot read the message - it was encrupted by the sending device and we only have the cnruypted verion. Once the receipeint comes on line and we deliver your message to their handset - a small grey dot is shown on your screen next to that message. This will turn into a green dot once they have read your message"
+- Q: "Why can't I hide read receipts?"
+  A: "Semafore is a messaging tool that is designed for organisations, not private individuals. As such the visibility of whether a message is reported as seen or not is set by the organisation.</p>
+      <p>Note that this is the issuing of read receipts, regardless of organisation. If User A1 is in Organisation A and A has determined that user A1 will not issue read receipts, User B2 in Organisation B that does permit read receipts to be issued, will not be able to tell if User A1 has read or not read B2's' message. Meanwhile if A1 sends a message to B2, A1 will be able to tell if B2 has read it.</p>"
+- Q: "Why is there a delay when opening up Semafore?"
+  A: "When Semafore is first opened, or opened after a period of being in the background, it connects to our server and conducts a 'crypto handshake' to report that it is now online and able to receive / send messages. This opening up of a crypto tunnel takes a little while - cryptography (encryption) is mathematically challenging and hence the 'delay' whilst it completes."
+- Q: "How Secure is 'Secure'?"
+  A: "<ol>
+        <li>end to end encryption</li>
+        <li>cannot be read on our servers</li>
+        <li>due to cryptography approach we've used we need to ensure no bad actors - hence only sold to organisations that have a footprint (exist in a corporate register)
+          </li>
+        <li>blah blah</li>
+      </ol>"
+- Q: "Why can I only have two contacts?"
+  A: "See 'Why don't you sell via the AppStore or Google Play' above [TODO] (needs anchor link)<p>Above are App. Next is 'Billing':</p>"
+- Q: "Why don't you sell via the AppStore or GooglePlay?"
+  A: "<p>The security architecture and encryption that Semafore uses means that we are not permitted to allow non-approved entities to make use of our technology.</p>
+			<p>As a result, we can only offer Semafore to organisations that can be publicly verified as part of the buying process - they must exist on a corporate register, and key details will be independently verified before a full licence can be issued.</p>
+			<p>For government agencies, please contact semafore at <a href='https://attomus.com/'>attomus.com</a> </p>"
+- Q: "Do you offer Annual subscriptions?"
+  A: "Yes"
+- Q: "Can we pay by invoice instead of credit card?"
+  A: "Of course, email billing at <a href='https://attomus.com/'>attomus.com</a> <br>		Dashboard:"
+- Q: "What is the dashboard?"
+  A: "<p>The dashboard allows an organisation to look across their users and provides security monitoring, key metrics and security tools to help the CISO understand their security posture with Semafore.</p>
+			<p>From the Dashboard you can see how many messages are being sent from which devices (obviously you can't read them or tell who they are being sent to), remote delete the application from a user's device if it's been compromised or stolen, and manage your users and invites.</p>"
+
+- Q: "How can I suspend a user?"
+  A: "<p>Todo - need to build a help site for dashboard etc</p> <p>general questions:</p>"
+- Q: "Who is behind Semafore?"
+  A: "<p>[Attomus] is an independent cybersecurity and advanced technology company that provides tools and services to the UK government, NATO and other agencies. A bunch of nerds who love tech and have lived our entire lives in the cyber and advanced security space, we wanted to use our skills and knowledge to build a product that could be used by a wider audience than the very exclusive rarefied clients that we normally work with.</p>"
+- Q: "What is Semafore?"
+  A: "<ol><li>Semafore is designed to do one thing well - offer a highly secure communication tool. We don't own a social media company, we don't aggregate vast data, we don't have any conflicts of interest. We only do cybersecurity.</li>
+			<li> Built from the ground up for Enterprises and Government Agencies instead of private individuals</li>
+			<li>Not built by BigCo - no more adverts appearing on social feeds relating to the 'private' chat you just had</li>
+			<li>Controlled access - CISO can determine if users can forward invites to others, for example journalists allowing confidential sources to use Semafore, or if all communication should remain in-house</li>
+			<li>Remote wipe - dashboard allows a CISO to remotely wipe a device if it has been physically compromised (e.g. stolen)</li>
+			<li> Built by UK cyber experts, so fully subscribes to GDPR and European Privacy Laws - no US Homeland issues</li></ol>"

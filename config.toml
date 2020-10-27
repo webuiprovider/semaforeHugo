@@ -23,3 +23,53 @@ title = "Semafore"
         identifier = "Contact"
         name = "Contact"
         url = "/#contact"
+    
+
+[params]
+phone = "+44 20 3026 6250"
+email = "support@attomus.com"
+address = "Attomus Limited 23 Berkeley Square Mayfair London, W1J 6HE United Kingdom"
+copyright = "Copyright 2020 © All Rights Reserved"
+
+
+[[params.social]]
+link= "#"
+icon= "fa fa-twitter"
+
+[[params.social]]
+link= "#"
+icon= "fa fa-linkedin"
+
+
+[[params.social]]
+link= "#"
+icon= "fa fa-rss"
+
+
+
+
+[params.footer]
+  [params.footer.about]
+  heading = "About <span><a href='/'>Semafore.</a></span>"
+  logo = "images/attomus.png"
+  text = "Bring more security to your day-to-day communication. Be an early adapter to the fast and secure messaging platform. Try Semafore today and enjoy the true meaning of privacy."
+
+  [params.footer.quickLinks]
+  heading = "Quick Links"
+
+  [[params.footer.quickLinks.links]]
+  text = "Home"
+  url = "/"
+  [[params.footer.quickLinks.links]]
+  text = "Why Us"
+  url = "/why"
+  [[params.footer.quickLinks.links]]
+  text = "Price"
+  url = "/price"
+  [[params.footer.quickLinks.links]]
+  text = "Contact"
+  url = "/#contact"
+
+  
+  [params.footer.services]
+  heading = "Services"
